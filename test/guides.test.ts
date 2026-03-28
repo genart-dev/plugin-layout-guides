@@ -42,7 +42,7 @@ describe("layout-guides plugin", () => {
   it("exports a valid DesignPlugin", () => {
     expect(layoutGuidesPlugin.id).toBe("layout-guides");
     expect(layoutGuidesPlugin.tier).toBe("free");
-    expect(layoutGuidesPlugin.layerTypes).toHaveLength(5);
+    expect(layoutGuidesPlugin.layerTypes).toHaveLength(6);
     expect(layoutGuidesPlugin.mcpTools).toHaveLength(4);
   });
 
